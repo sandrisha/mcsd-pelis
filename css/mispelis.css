@@ -1,0 +1,110 @@
+﻿body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#resultados {
+    border: solid 0px red;
+    width: 75%;
+    margin: 0 auto;
+    padding: 10px 10px 10px 10px;
+}
+
+.item-pelicula {
+    border: solid 0px green;
+    float: left;
+    margin-left: 8px;
+    display: none;
+}
+
+img {
+    width: 175px;
+    height: 225px;
+    /*display: none;*/
+}
+
+.contenido-pelicula {
+    border: solid 0px green;
+    float:left;
+}
+
+.datos-pelicula {
+    border: solid 0px blue;
+    float: left;
+    margin-left: 5px;
+    width: 300px;
+}
+
+.cabecera {
+    border: solid 0px red;
+    float: left;
+    padding: 2px 2px 2px 2px;
+    font-weight: bold;
+    width: 300px;
+
+}
+
+.votos {
+    border: solid 0px green;
+    float: right;
+    padding: 2px 2px 2px 2px;
+    
+}
+
+.texto-cortado {
+    width: 300px;
+    /*overflow:hidden; */
+    /*text-overflow: ellipsis;*/
+    height: 200px;
+}
+
+.clear {
+    clear: both;
+    text-align: justify;
+    font-size: 0.8em;
+
+}
+
+.contenido {
+    border: solid 1px grey;
+    padding-left: 3px;
+    padding-top: 3px;
+}
+
+.puntero {
+    cursor: pointer;
+}
+
+.oculto {
+    display: none;
+}
+
+#paginador {
+    width: 75%;
+    margin: 0 auto;
+    padding: 10px 10px 10px 10px;
+}
+
+#camino-hormigas {
+    border: solid 0px black;
+    float: left;
+    margin-left: 10px;
+}
+
+#flecha-izda {
+    border: solid 0px red;
+    float: left;
+    margin-left: 10px;
+}
+
+#flecha-dcha {
+    border: solid 0px blue;
+    float: left;
+    margin-left: 10px;
+}
+
+.fecha {
+    float: left; 
+    margin: 10px 10px 10px 0px; 
+    overflow: hidden; 
+    padding: 0; 
+}
