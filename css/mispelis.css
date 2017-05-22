@@ -1,5 +1,5 @@
 ﻿body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: verdana, "sans-serif";
 }
 
 #resultados {
@@ -10,10 +10,10 @@
 }
 
 .item-pelicula {
-    border: solid 1px #828282;
-    margin-top: 3px;
+    border: solid 1px #848484;
     float: left;
     margin-left: 8px;
+    margin-top: 3px;
     display: none;
 }
 
@@ -40,14 +40,13 @@ img {
     float: left;
     padding: 2px 2px 2px 2px;
     font-weight: bold;
-    width: 300px;
-
+    width: 190px;
 }
 
 .votos {
     border: solid 0px green;
     float: right;
-    padding: 2px 2px 2px 2px;
+    padding: 2px;
     
 }
 
@@ -58,15 +57,20 @@ img {
     height: 200px;
 }
 
+.fecha {
+    margin: 25px 0 30px 3px;
+    clear: both;
+}
+
 .clear {
     clear: both;
+    font-size: 12px;
     text-align: justify;
-    font-size: 0.8em;
-
+    margin: 5px 8px 5px 5px;
 }
 
 .contenido {
-    border: solid 1px grey;
+    border: solid 0px red;
     padding-left: 3px;
     padding-top: 3px;
 }
@@ -101,11 +105,4 @@ img {
     border: solid 0px blue;
     float: left;
     margin-left: 10px;
-}
-
-.fecha {
-    float: left; 
-    margin: 10px 10px 10px 0px; 
-    overflow: hidden; 
-    padding: 0; 
 }
